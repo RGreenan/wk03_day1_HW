@@ -88,3 +88,8 @@ INSERT INTO movies (title, year, show_time) VALUES ('Black Panther', 2018, '20:1
 
 --9. The cinema would also like to make the Guardians movies a back to back feature. Find out the show time of "Guardians of the Galaxy" and set the show time of "Guardians of the Galaxy 2" to start two hours later.
 --INSERT INTO movies ( title, year, show_time ) VALUES ( 'Guardians of the Galaxy 2', 2018, '14:30' );
+
+
+--ext. Research how to delete multiple entries from your table in a single command.
+--DELETE FROM characters;   --deletes all characters
+--DELETE FROM movies WHERE year <= 2014;  --deletes all movies with 'year' less than 2014
